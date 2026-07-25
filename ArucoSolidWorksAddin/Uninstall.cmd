@@ -1,0 +1,11 @@
+@echo off
+powershell.exe -NoProfile -ExecutionPolicy Bypass -File "%~dp0scripts\Uninstall.ps1"
+if errorlevel 1 (
+  echo.
+  echo Uninstall failed.
+  pause
+  exit /b 1
+)
+echo.
+echo Uninstall completed.
+pause

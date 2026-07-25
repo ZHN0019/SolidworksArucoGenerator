@@ -1,0 +1,12 @@
+﻿{
+    "product":  "SOLIDWORKS ArUco Part Generator",
+    "version":  "1.1.0",
+    "architecture":  "x64",
+    "target":  "SOLIDWORKS 2025 or compatible",
+    "framework":  ".NET Framework 4.8",
+    "file":  "SOLIDWORKS_ArUco_Generator_Setup_1.1.0_x64.exe",
+    "size_bytes":  3271429,
+    "sha256":  "29acd63bab28240197796c790c9d0f527403eeef4e0a11ca6c11f6774d1a5e99",
+    "authenticode_status":  "NotSigned",
+    "built_at":  "2026-07-25T23:23:15.6868954+08:00"
+}

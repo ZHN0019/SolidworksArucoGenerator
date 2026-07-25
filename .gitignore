@@ -1,0 +1,17 @@
+.vs/
+**/.dotnet-home/
+**/bin/
+**/obj/
+**/*.user
+**/*.suo
+**/*.pdb
+**/validation*/
+**/installer/assets/
+**/installer/dist/
+*.SLDPRT
+*.SLDASM
+*.SLDDRW
+*.STEP
+*.STP
+ArUco_*.png
+*.log
