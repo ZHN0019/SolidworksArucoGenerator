@@ -46,6 +46,16 @@ SHA-256:
 The installer is not Authenticode-signed. Windows SmartScreen may show an
 unknown-publisher warning.
 
+## UI and Output Preview
+
+UI preview:
+
+![ArUco generator UI preview](docs/images/ui-generator.png)
+
+Verified generation result (ID 17, 40 mm marker side, 1 mm thickness):
+
+![ArUco generation result](docs/images/generation-result.png)
+
 ## Installation
 
 1. Save your work and completely close all SOLIDWORKS windows.
@@ -54,6 +64,10 @@ unknown-publisher warning.
 4. Start SOLIDWORKS.
 5. Open `Tools > Add-Ins` and verify that **ArUco Part Generator** is enabled.
 6. Open the UI from `Tools > ArUco Generator > Generate ArUco`.
+
+Installation flow:
+
+![ArUco add-in installation flow](docs/images/installation-flow.png)
 
 Close SOLIDWORKS before uninstalling the add-in from Windows Installed Apps.
 
@@ -80,6 +94,10 @@ selected output directory/
 
 STEP files are exported as AP214 with appearance data enabled. The add-in
 restores the user's previous SOLIDWORKS STEP preferences after export.
+
+Output directory layout:
+
+![ArUco output directory layout](docs/images/output-directory.png)
 
 ## Building from Source
 

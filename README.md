@@ -43,6 +43,16 @@ SHA-256：
 
 当前安装包没有商业代码签名证书，Windows SmartScreen 可能显示未知发布者提示。
 
+## 界面与结果预览
+
+界面预览：
+
+![ArUco 生成器界面预览](docs/images/ui-generator.png)
+
+实际验证生成结果（ID 17、码区边长 40 mm、厚度 1 mm）：
+
+![ArUco 生成结果](docs/images/generation-result.png)
+
 ## 安装
 
 1. 保存工作并彻底关闭所有 SOLIDWORKS 窗口。
@@ -51,6 +61,10 @@ SHA-256：
 4. 启动 SOLIDWORKS。
 5. 打开 `工具 > 插件`，确认“ArUco 零件生成器”已启用，并按需勾选启动项。
 6. 从 `工具 > ArUco 生成器 > 生成 ArUco` 打开界面。
+
+安装流程示意：
+
+![ArUco 插件安装流程示意](docs/images/installation-flow.png)
 
 卸载前关闭 SOLIDWORKS，然后从 Windows“已安装的应用”中卸载。
 
@@ -76,6 +90,10 @@ SHA-256：
 
 STEP 固定导出为 AP214，并启用外观数据。插件会在导出后恢复用户原来的
 SOLIDWORKS STEP 设置。
+
+输出目录示意：
+
+![ArUco 输出目录示意](docs/images/output-directory.png)
 
 ## 从源码构建
 
